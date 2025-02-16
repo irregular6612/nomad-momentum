@@ -29,3 +29,18 @@ if (isNaN(parseInt('fk123'))) {
     console.log('숫자입니다.');
 }
 
+console.log(true && false); //false
+console.log(true || false); //true
+console.log(!true); //false
+
+// === ==
+// === : 값과 타입이 모두 같아야 true
+// == : 값만 같으면 true
+
+console.log(1 === '1'); //false
+console.log(1 == '1'); //true
+
+
+
+
+
